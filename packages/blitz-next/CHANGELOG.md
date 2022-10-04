@@ -1,5 +1,17 @@
 # @blitzjs/next
 
+## 2.0.0-beta.10
+
+### Patch Changes
+
+- 1742eb4: Fix prefetching infinite Blitz queries.
+- 9fe0cc5: Fix auth related React hydration errors by not redirecting until after component mount.
+- e2c1889: Add client testing utilities and a sample test to a new blitz app template
+- 25f4526: Treat API Route handler as a middleware. This allows outer middlewares to completely wrap queries and mutations.
+- Updated dependencies [0edeaa3]
+- Updated dependencies [8e0c9d7]
+  - @blitzjs/rpc@2.0.0-beta.10
+
 ## 2.0.0-beta.4
 
 ### Patch Changes
