@@ -1,5 +1,18 @@
 # @blitzjs/generator
 
+## 2.0.0-beta.10
+
+### Patch Changes
+
+- 0473020: Update prisma-ast dependency to prevent Blitz generator from failing when Prisma keywords are used as model names
+- 824a9b5: Fix `no-floating-promises` lint errors after generating pages with Blitz generator by adding `await` to `router.push` calls in the templates
+- d6717b9: Load schema.prisma path from `package.json` instead of assuming it's `db/schema.prisma`
+- bf4aaf1: Move `useCurrentUser` hook from `core/hooks` to `users/hooks` folder
+- b43c1a8: Remove the random user (noop@blitzjs.com) & use user's default git account when commiting a new generated blitz project.
+- 83281a8: Fix eslint config in new JavaScript app templates
+- bd09db7: Remove `views` property from `Session.PublicData` in `types.ts` file
+- e2c1889: Add client testing utilities and a sample test to a new blitz app template
+
 ## 2.0.0-beta.4
 
 ### Patch Changes

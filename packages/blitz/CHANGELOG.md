@@ -1,5 +1,27 @@
 # blitz
 
+## 2.0.0-beta.5
+
+### Patch Changes
+
+- 9db6c88: Fix `blitz --help` CLI command not being found
+- 9fe0cc5: Fix auth related React hydration errors by not redirecting until after component mount.
+- af58e2b: Add a global Blitz version check when generating a new Blitz project to ensure users use the latest Blitz.
+- 0edeaa3: Allow for custom page extensions for the wildcard blitz route. For example [...blitz].api.ts. For more information vist https://nextjs.org/docs/api-reference/next.config.js/custom-page-extensions
+- 430f6ec: Only generate the prisma client if it's not found in node_modules when running a blitz cli command.
+- 15d22af: Add `blitz console` CLI command back to toolkit
+- 8e0c9d7: Migrate over recipe functionality from legacy framework & expose recipe builder helper functions that find and modify next.config.js, blitz-server & blitz-client.
+- e2c1889: Add client testing utilities and a sample test to a new blitz app template
+- Updated dependencies [0473020]
+- Updated dependencies [824a9b5]
+- Updated dependencies [d6717b9]
+- Updated dependencies [bf4aaf1]
+- Updated dependencies [b43c1a8]
+- Updated dependencies [83281a8]
+- Updated dependencies [bd09db7]
+- Updated dependencies [e2c1889]
+  - @blitzjs/generator@2.0.0-beta.10
+
 ## 2.0.0-beta.4
 
 ### Patch Changes

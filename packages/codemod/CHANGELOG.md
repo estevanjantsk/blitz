@@ -1,5 +1,29 @@
 # @blitzjs/codemod
 
+## 2.0.0-beta.10
+
+### Patch Changes
+
+- b3b4c21: Unwrap `invokeWithMiddleware` so the query or mutation is called directly when running the codemod
+- eb970f7: Fix detecting `blitz.config.(ts|js)` config file when running the codemod.
+- Updated dependencies [0473020]
+- Updated dependencies [9db6c88]
+- Updated dependencies [824a9b5]
+- Updated dependencies [d6717b9]
+- Updated dependencies [bf4aaf1]
+- Updated dependencies [9fe0cc5]
+- Updated dependencies [b43c1a8]
+- Updated dependencies [af58e2b]
+- Updated dependencies [0edeaa3]
+- Updated dependencies [430f6ec]
+- Updated dependencies [83281a8]
+- Updated dependencies [15d22af]
+- Updated dependencies [bd09db7]
+- Updated dependencies [8e0c9d7]
+- Updated dependencies [e2c1889]
+  - @blitzjs/generator@2.0.0-beta.10
+  - blitz@2.0.0-beta.5
+
 ## 2.0.0-beta.4
 
 ### Patch Changes
